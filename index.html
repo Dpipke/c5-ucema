@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- Discount message - header -->
+      <div class="top-header">
+        <h3>Grandes ofertas en comederos</h3>
+        <div class="page-options">
+          <!-- Language selector -->
+          <select id="languageSelector">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+
+          <!-- Currency selector -->
+          <select id="currencySelector">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+      </div>
+      <!-- main header -->
+      <div class="principal-header">
+        <div class="div-logo">
+          <img src="images/Cat.png" alt="cat" />
+          <h1><span class="h1-span">Front</span>Cat&Dog</h1>
+          <img src="images/Dog.png" alt="dog" />
+        </div>
+        <nav>
+          <ul class="ul-nav">
+            <li><a href="#">Categorías</a></li>
+            <li><a href="#">Pets</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </nav>
+        <svg
+          class="menu-icon"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.714286 5.15625H19.2857C19.6802 5.15625 20 4.87645 20 4.53125V2.96875C20 2.62355 19.6802 2.34375 19.2857 2.34375H0.714286C0.319777 2.34375 0 2.62355 0 2.96875V4.53125C0 4.87645 0.319777 5.15625 0.714286 5.15625ZM0.714286 11.4062H19.2857C19.6802 11.4062 20 11.1264 20 10.7812V9.21875C20 8.87355 19.6802 8.59375 19.2857 8.59375H0.714286C0.319777 8.59375 0 8.87355 0 9.21875V10.7812C0 11.1264 0.319777 11.4062 0.714286 11.4062ZM0.714286 17.6562H19.2857C19.6802 17.6562 20 17.3764 20 17.0312V15.4688C20 15.1236 19.6802 14.8438 19.2857 14.8438H0.714286C0.319777 14.8438 0 15.1236 0 15.4688V17.0312C0 17.3764 0.319777 17.6562 0.714286 17.6562Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+    </header>
+    <main>
+      <section class="heroe">
+        <div class="heroe-div">
+          <h2 class="h2-heroe">¡Es un placer tenerte aquí!</h2>
+          <h3>¡Comederos en descuento!</h3>
+          <a href="#" class="comederos-button">COMEDEROS</a>
+        </div>
+      </section>
+      <section>
+        <div class="products-div">
+          <i class="fas fa-paw paw"></i>
+          <h2 class="h2-products">Productos Destacados</h2>
+          <p>Comederos - Accesorios - Comida</p>
+          <div class="cards-div">
+            <div class="card">
+              <img
+                src="images/churrasquito.png"
+                alt="imagen Juguete churrasquito"
+              />
+              <p class="product-name">Juguete Churrasquito</p>
+              <p class="price">$150</p>
+            </div>
+            <div class="card">
+              <img src="images/comedero.png" alt="imagen comedero" />
+              <p class="product-name">Comedero para perro</p>
+              <p class="price">$250</p>
+            </div>
+            <div class="card">
+              <img src="images/Huesito.png" alt="imagen Juguete Huesito" />
+              <p class="product-name">Juguete Huesito</p>
+              <p class="price">$650</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <h3 class="h3-contact">Contáctanos</h3>
+        <form action="" method="POST" class="contact-form">
+          <label for="fullname">
+            <input
+              type="text"
+              name="fullname"
+              id="fullname"
+              placeholder="Nombre y apellido"
+            />
+          </label>
+          <label for="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Nombre y apellido"
+            />
+          </label>
+          <label for="telephone">
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone"
+              placeholder="Teléfono"
+            />
+          </label>
+          <div class="div-btn">
+            <input type="reset" value="Resetear" class="reset-btn" />
+            <input type="submit" value="Enviar" class="send-btn" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="newsletter-footer">
+        <p>Suscríbete para más novedades</p>
+        <form action="" method="POST">
+          <input type="email" placeholder="Ingresá tu correo electronico" />
+          <input type="submit" value="Suscribirme" />
+        </form>
+      </div>
+      <div class="top-footer">
+        <div class="contact-information">
+          <div class="all-footer-data">
+            <img
+              class="img-information"
+              src="images/location 1.png"
+              alt="ubicacion"
+            />
+            <div class="footer-data">
+              <h3 class="h3-footer-data">Localidad</h3>
+              <p class="footer-description">Calle - provincia</p>
+            </div>
+          </div>
+
+          <div class="footer-data">
+            <img
+              class="img-information"
+              src="images/phone-call 1.png"
+              alt="telefono"
+            />
+            <div class="footer-data">
+              <h3 class="h3-footer-data">Teléfono</h3>
+              <p class="footer-description">Número de teléfono</p>
+            </div>
+          </div>
+
+          <div class="footer-data">
+            <img class="img-information" src="images/email.png" alt="email" />
+            <div class="footer-data">
+              <h3 class="h3-footer-data">Correo Electrónico</h3>
+              <p class="footer-description">Dirección de correo</p>
+            </div>
+          </div>
+        </div>
+        <div class="logo-div-footer">
+          <img src="images/Cat.png" alt="cat" />
+          <h3 class="h3-logo-footer">
+            <span class="h3-span">Front</span>Cat&Dog
+          </h3>
+          <img src="images/Dog.png" alt="dog" />
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <p class="copyright">Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
